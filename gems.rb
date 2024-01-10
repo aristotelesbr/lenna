@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+# Released under the MIT License.
+# Copyright, 2024, by Aristóteles Coutinho.
+
 source "https://rubygems.org"
 
 # Specify your gem's dependencies in lenna.gemspec
@@ -55,3 +58,8 @@ group :development, :test do
 	# RuboCop is a Ruby static code analyzer (a.k.a. linter) and code formatter.
 	gem "rubocop", "~> 1.21"
 end
+
+# Moved Development Dependencies
+gem "rake", "~> 13.0"
+gem "rspec", "~> 3.0"
+gem "rubocop", "~> 1.21"
